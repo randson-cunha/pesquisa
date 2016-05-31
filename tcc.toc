@@ -1,0 +1,77 @@
+\changetocdepth {4}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Introdu\IeC {\c c}\IeC {\~a}o}{13}{chapter*.6}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Sistemas embarcados em microcontroladores}}{15}{chapter.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Algoritmos Gen\IeC {\'e}ticos}}{17}{chapter.2}
+\contentsline {section}{\numberline {2.1}Descri\IeC {\c c}\IeC {\~a}o geral}{17}{section.2.1}
+\contentsline {section}{\numberline {2.2}O cromossomo}{19}{section.2.2}
+\contentsline {section}{\numberline {2.3}Sele\IeC {\c c}\IeC {\~a}o}{19}{section.2.3}
+\contentsline {section}{\numberline {2.4}Crossover}{20}{section.2.4}
+\contentsline {section}{\numberline {2.5}Muta\IeC {\c c}\IeC {\~a}o}{21}{section.2.5}
+\contentsline {section}{\numberline {2.6}Elitismo}{21}{section.2.6}
+\contentsline {section}{\numberline {2.7}Avalia\IeC {\c c}\IeC {\~a}o da popula\IeC {\c c}\IeC {\~a}o.}{22}{section.2.7}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Sistemas embarcados}}{23}{chapter.3}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Descri\IeC {\c c}\IeC {\~a}o do projeto}}{25}{chapter.4}
+\contentsline {section}{\numberline {4.1}Descri\IeC {\c c}\IeC {\~a}o do GA}{25}{section.4.1}
+\contentsline {section}{\numberline {4.2}A representa\IeC {\c c}\IeC {\~a}o do cromossomo}{26}{section.4.2}
+\contentsline {section}{\numberline {4.3}A precis\IeC {\~a}o do algoritmo}{26}{section.4.3}
+\contentsline {section}{\numberline {4.4}Otimiza\IeC {\c c}\IeC {\~a}o de mem\IeC {\'o}ria}{26}{section.4.4}
+\contentsline {section}{\numberline {4.5}Inicializa\IeC {\c c}\IeC {\~a}o da popula\IeC {\c c}\IeC {\~a}o}{26}{section.4.5}
+\contentsline {section}{\numberline {4.6}Sele\IeC {\c c}\IeC {\~a}o da nova popula\IeC {\c c}\IeC {\~a}o}{27}{section.4.6}
+\contentsline {subsection}{\numberline {4.6.1}O m\IeC {\'e}todo da roleta}{27}{subsection.4.6.1}
+\contentsline {subsection}{\numberline {4.6.2}O Crossover}{28}{subsection.4.6.2}
+\contentsline {subsection}{\numberline {4.6.3}Muta\IeC {\c c}\IeC {\~a}o}{28}{subsection.4.6.3}
+\contentsline {subsection}{\numberline {4.6.4}Elitismo}{29}{subsection.4.6.4}
+\contentsline {section}{\numberline {4.7}Avalia\IeC {\c c}\IeC {\~a}o da popula\IeC {\c c}\IeC {\~a}o}{29}{section.4.7}
+\contentsline {section}{\numberline {4.8}Normaliza\IeC {\c c}\IeC {\~a}o da popula\IeC {\c c}\IeC {\~a}o}{30}{section.4.8}
+\contentsline {section}{\numberline {4.9}A aptid\IeC {\~a}o dos cromossomos}{30}{section.4.9}
+\contentsline {section}{\numberline {4.10}Valores rand\IeC {\^o}micos}{30}{section.4.10}
+\contentsline {section}{\numberline {4.11}Configura\IeC {\c c}\IeC {\~a}o do Registrador de controle TCCR1B}{31}{section.4.11}
+\contentsline {section}{\numberline {4.12}A valida\IeC {\c c}\IeC {\~a}o do algoritmo}{31}{section.4.12}
+\contentsline {section}{\numberline {4.13}Resultados}{32}{section.4.13}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Elementos textuais}}{33}{chapter.5}
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{Considera\IeC {\c c}\IeC {\~o}es finais}{35}{chapter*.8}
+\vspace {\cftbeforechapterskip }
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Ap\^endices}}{37}{section*.10}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Quisque libero justo}}{39}{appendix.A}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula ac pretium ante justo a nulla curabitur tristique arcu eu metus}}{41}{appendix.B}
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftpartindent }{\cftlastnumwidth } \setlength {\cftpartnumwidth }{2em}
+\cftinsert {A}
+\contentsline {part}{\uppercase {Anexos}}{43}{section*.11}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Morbi ultrices rutrum lorem.}}{45}{appendix.anexochapback.1}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus}}{47}{appendix.anexochapback.2}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {C}\MakeTextUppercase {Fusce facilisis lacinia dui}}{49}{appendix.anexochapback.3}
+\vspace {\cftbeforechapterskip }
