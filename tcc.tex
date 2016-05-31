@@ -320,16 +320,16 @@
   No entanto, este valor de chr é bastante elevado, de modo que é necessário convertê-lo para o espaço de busca do problema. Podemos fazer isso através da seguinte equação \ref{eq:normalizacao}
 
   \begin{equation}
-    b = min + (max - min) \frac{chr_{10}}{2^p -1}
+    b\_norm = min + (max - min) \frac{b}{2^p -1}
     \label{eq:normalizacao}
   \end{equation}
   
 
-  onde c é o valor correspondente na base decimal ao cromossomo, min é o valor mínimo do espaço de busca, max é o valor máximo e p é a precisão do algoritmo, que corresponde a quantidade de bits da cadeia binária.
+  onde b é o valor correspondente na base decimal ao cromossomo, min é o valor mínimo do espaço de busca, max é o valor máximo e p é a precisão do algoritmo, que corresponde a quantidade de bits da cadeia binária.
 
   Supondo que nosso espaço de busca esteja na faixa de -10.0 à 10.0, este cromossomo possuiria valor igual:
 
-  $$chr = -10.0 + (10;0 - (-10.0))* \frac{610967}{2^{20}-1} = 1.6533 $$
+  $$b\_norm = -10.0 + (10.0 - (-10.0))* \frac{610967}{2^{20}-1} = 1.6533 $$
 
 
   O GA possue fundamentalmente quatro etapas. São elas: Seleção, Crossover, mutação e avaliação.
