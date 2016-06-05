@@ -32,7 +32,7 @@
     % -- opções da classe memoir --
     12pt,               % tamanho da fonte
     %openright,          % capítulos começam em pág ímpar (insere página vazia caso preciso)
-    twoside,            % para impressão em verso e anverso. Oposto a oneside
+    oneside,%twoside,            % para impressão em verso e anverso. Oposto a oneside
     a4paper,            % tamanho do papel. 
     % -- opções da classe abntex2 --
     %chapter=TITLE,     % títulos de capítulos convertidos em letras maiúsculas
@@ -45,6 +45,8 @@
     spanish,            % idioma adicional para hifenização
     brazil,             % o último idioma é o principal do documento
     ]{abntex2}
+
+
 
 % ---
 % PACOTES
@@ -60,7 +62,9 @@
 \usepackage{color}              % Controle das cores
 \usepackage{graphicx}           % Inclusão de gráficos
 \usepackage{microtype}          % para melhorias de justificação
+%\usepackage[utf8x]{inputenc} 
 % ---
+
 
 % ---
 % Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
@@ -71,8 +75,8 @@
 % ---
 % Pacotes de citações
 % ---
-\usepackage[brazilian,hyperpageref]{backref}     % Paginas com as citações na bibl
-\usepackage[alf]{abntex2cite}   % Citações padrão ABNT
+%\usepackage[brazilian,hyperpageref]{backref} % Paginas com as citações na bibl
+%\usepackage[alf]{abntex2cite}   % Citações padrão ABNT
 
 % --- 
 % CONFIGURAÇÕES DE PACOTES
@@ -81,18 +85,18 @@
 % ---
 % Configurações do pacote backref
 % Usado sem a opção hyperpageref de backref
-\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
 % Texto padrão antes do número das páginas
-\renewcommand{\backref}{}
+%\renewcommand{\backref}{}
 % Define os textos da citação
-\renewcommand*{\backrefalt}[4]{
-    \ifcase #1 %
-        Nenhuma citação no texto.%
-    \or
-        Citado na página #2.%
-    \else
-        Citado #1 vezes nas páginas #2.%
-    \fi}%
+%\renewcommand*{\backrefalt}[4]{
+%    \ifcase #1 %
+ %       Nenhuma citação no texto.%
+  %  \or
+   %     Citado na página #2.%
+   % \else
+   %     Citado #1 vezes nas páginas #2.%
+   % \fi}%
 % ---
 
 % ---
@@ -107,7 +111,7 @@
   \par
   Orientador
   \par
-  Prof. Dr. Marcelo Augusto Costa Fernandes
+  \textbf{Prof. Dr. Marcelo Augusto Costa Fernandes}
 
   Universidade Federal do Rio Grande do Norte - UFRN
   \par
@@ -227,6 +231,9 @@
   \item[N] Tamanho da população
   \item[MAX\_SORT] Máximo valor sorteado para inicialização da população 
   \item[p] Precisão do algoritmo 
+  \item[AD] Alternate - Direct
+  \item[DA] Direct - Alternate
+
 
 \end{siglas}
 % ---
@@ -266,7 +273,6 @@
 % ----------------------------------------------------------
 % Capitulo de textual  
 % ----------------------------------------------------------
-\chapter{Sistemas embarcados em microcontroladores}
 
 \chapter{Algoritmos Genéticos}
 
@@ -384,6 +390,59 @@
 
 \chapter{Sistemas embarcados}
 
+  Sistemas embarcados são sistemas computacionais dedicados desenvolvidos para necessidades específicas e seu uso tem crescido bastante nos últimos anos.  Muitas vezes é necessário a criação de sistemas computacionais que consigam resolver problemas específicos e que para isso disponha dos recursos estritamente necessários para tal fim, evitando desperdício de recursos de memória, processamento e consequentemente de energia. 
+
+  Os sistemas embarcados são amplamente desenvolvidos a partir de microcontroladores que estão presentes em vários dispositivos eletrônicos controlados digitalmente. Especialmente nos dispositivos que usamos no nosso dia à dia, tais como máquinas de lavar, fornos de micro-ondas, televisores, aparelhos de som, controles de injeção de combustíveis, telefones celulares, etc. Estão presentes em diversos tipos de equipamentos do nosso dia à dia, de modo que torna-se cada mais necessário encontrarmos formas de otimizar seu uso, desde os sistemas mais simples, aos mais complexos, usados na indústria. Isso tudo foi possível devido à disponibilidade de  várias funcionalidades em  um único circuito integrado  (Lima, 2010).
+
+  Um microcontrolador é um sistema microprocessado com várias funcionalidades (periféricos) disponíveis em um único chip (Lima, 2010).  Permite o desenvolvimento rápido de sistemas eletrônicos, necessitando poucos ou nenhum componente externo.
+
+  Os microcontroladores tornam-se poderosos devido a sua flexibilidade e confiabilidade, pois  possuem um núcleo de processador, memória e periféricos programáveis de entrada e saída, o que o tornam boas opções em prototipação de sistemas potencialmente caros, bem como apresentam excelente desempenho e versatilidade em diversas aplicações. São amplamente usados em sistemas embarcados, pois permitem o desenvolvimento rápido de sistemas eletrônicos, necessitando de poucos componentes adicionais além de poderem ser programados em linguagem C ou Assemply para funções específicas.
+
+  Outra característica importante dos microcontroladores é que eles possuem consumo de energia relativamente baixo, o que torna o seu uso bastante interessante do ponto de vista da engenharia, já que a redução do consumo de energia é um desafio recorrente na indústria, de um modo geral.
+
+  O uso de microcontroladores, de um modo geral, são boas opções de uso no desenvolvimento de sistemas embarcados, pois contam com inúmeras funcionalidades úteis e frequentemente necessárias neste tipo de projeto. Podemos citar gerador/temporizador interno independente de clock, memórias SRAM, EEPROM e memória flash, conversores analógicos-digitais – ADCs, conversores digitais-analógicos – ADCs, comparadores analógicos, saídas PWM, entre outras funcionalidades, que podem estar presentes, dependendo do fabricante.
+
+ Podemos ver na figura \ref{fig:esquematico_microcontrolador}, o esquemático de um microcontrolador típico.
+ 	
+ 	\begin{figure}[tb]
+	\centering 
+	\includegraphics[width=1.0\columnwidth]{images/esquematico_microcontrolador} 
+	\caption[Arquitetura de um típico microcontrolador]{Arquitetura de um típico microcontrolador}
+	\label{fig:esquematico_microcontrolador} 
+	\end{figure}
+
+  Podemos ver na figura \ref{fig:microcontrolador_atmega}, o esquemático de um microcontrolador típico.
+
+  	\begin{figure}[tb]
+	\centering 
+	\includegraphics[width=0.5\columnwidth]{images/microcontrolador_atmega} 
+	\caption[Microcontralador ATMEGA 2560]{Microcontralador ATMEGA 2560 de 16 MHz utilizado para validação do AG desenvolvido neste trabalho}
+	\label{fig:microcontrolador_atmega} 
+	\end{figure}
+
+   Neste trabalho, foi dado ênfase ao uso do microcontrolador ATMEGA 2560 que são microcontroladores AVR, da família ATMEL. São microcontroladores, em geral de 8 bits e cuja tecnologia utilizada é o RISC – Reduced Instruction Set Computer e arquitetura harvard. 
+
+
+  Na arquitetura harvard, há uma separação entre a memória de dados e a memória de programa, por meio de um barramento para cada tipo de memória. Deste modo, há uma redução na quantidade de portas lógicas, o que produz um núcleo de processamento mais compacto e uma programação mais  eficiente (Lima, 2010). Esta arquitetura é mais vantajosa em relação à tradicional arquitetura de Von Neuman que usa um mesmo barramento para ambas as memórias, de dados e do programa. Atualmente há uma tendência para o uso da arquitetura Harvard, que está sendo aperfeiçoada e otimizando cada vez mais  processamento no microcontroladores. É possível alcançar maior economia de energia e execução de mais instruções em poucos ciclos de clock.
+
+
+
+  As figuras \ref{fig:arquitetura_von_neuman} e \ref{fig:arquitetura_harvard} mostram o esquemáticos das arquiteturas de Von Neuma e Harvard, respectivamente.
+
+  	\begin{figure}[tb]
+	\centering 
+	\includegraphics[width=0.5\columnwidth]{images/arquitetura_von_neuman} 
+	\caption[Arquitetura Von-Neuman]{Arquitetura Von-Neuman}
+	\label{fig:arquitetura_von_neuman} 
+	\end{figure}
+
+	\begin{figure}[tb]
+	\centering 
+	\includegraphics[width=0.5\columnwidth]{images/arquitetura_harvard} 
+	\caption[Arquitetura Harvard]{Arquitetura de Harvard}
+	\label{fig:arquitetura_harvard} 
+	\end{figure}
+
 \chapter{Descrição do projeto}
 
  Este trabalho tem como finalidade a investigação, otimização e adequação do uso de AGs, em sistemas embarcados, tais como microcontroladores (MuC), microprocessadores (MuP) e sistemas digitais de processamento de sinais (DSPs), frequentemente utilizados em sistemas embarcados para aplicações dedicadas à soluções complexas de engenharia e, deste modo poder ser usado em vários setores da indústria.
@@ -406,7 +465,7 @@
 \section{A precisão do algoritmo}
 
   A precisão do algoritmo é definida pela quantidade de bits em cada cromossomo. Neste projeto a precisão é um parâmetro global do algoritmo que pode ser configurada pelo usuário de, acordo com a capacidade de representação numérica do sistema que irá executá-lo. Este parâmetro foi definido como constante, não podendo ser mais alterado depois do inicio da execução do algoritmo. Pelos teste realizados, percebeu-se que a precisão escolhida em nada afeta o tempo de execução do algoritmo de modo que a sua escolha é apenas limitada pela capacidade de representação numérica do sistema que irá executar o algoritmo.
-  Para sistemas de 10 bits, característico da maioria dos microprocessadores, é possível uma representação inteira de até   $2^10 -1$. Isso fornece uma precisão bastante razoável para a solução de problemas de otimização de um modo geral.
+  Para sistemas de 10 bits, que á resolução dos conversosres AD/DA da maioria dos microprocessadores, é possível uma representação inteira de até   $2^10 -1$. Isso fornece uma precisão bastante razoável para a solução de problemas de otimização de um modo geral.
 
 \section{Otimização de memória}
 
@@ -541,14 +600,12 @@
 
   A função de avaliação usada neste trabalho, para fins apenas de teste foi definida como $f(x) = x$.
 
-
 \section{Valores randômicos}
 
   Os AGs, de um modo geral são bastante dependentes da valores gerados de modo pseudoaleatórios, pois são estes valores que dão ao algoritmo sua natureza estocástica, a fim de que seu comportamento se aproxime o máximo possível do aspecto evolutivo biológico, observado na natureza. No entanto, o microcontrolador utilizado neste trabalho não possui a biblioteca time.h, normalmente utilizada para criação da semente na chamada da função srand, que é responsável pela geração de valores aleatórios em linguagem C. Por este motivo, a semente usada no algoritmo foi pega do contador TCTNT1  que é incrementado via clock interno. 
   TCCRA/B -  Timer/Counter Control Register
 
 \section{Configuração do Registrador de controle TCCR1B}
-
 
   O registrador possui 8 bits, os quais foram configurados da seguinte maneira:\\
   \textbf{BIT 7 – ICNC1:}  input Capture Noise Canceler. Este bit foi colocado em 0, pois o pino de captura ICP1 não é necessário.\\
@@ -585,24 +642,53 @@
   \end{verbatim}
 
 \section{Resultados}
+	
+  Os resultados obtidos podem ser observados pelas imagens a seguir. Diversas medições foram realizadas a fim de se observar o tempo de execução do AG para cada configuração diferente.
 
-\chapter{Elementos textuais}
+  Teste foram realizados para medir o desempenho do AG, variando-se o tamanho de sua população e deixando-se fixo a precisão desejada. Esta configuração propõe otimizar uma função de uma única variável, cuja função objetivo é $f(x) = x$  Os resultados são mostrados no gráfico da figura \ref{fig:populacao_tempo}.
 
-\index{elementos textuais}A norma ABNT NBR 15287:2011, p. 5, apresenta a
-seguinte orientação quanto aos elementos textuais:
+    \begin{figure}[tb]
+	\centering 
+	\includegraphics[width=1.0\columnwidth]{images/1_var_prec_10_sizepop_x_t} 
+	\caption[Tempo de execução x Tamanho da população]{Tempo de execução x tamanho da população}
+	\label{fig:populacao_tempo} 
+	\end{figure}
 
-\begin{citacao}
-O texto deve ser constituído de uma parte introdutória, na qual devem ser
-expostos o tema do projeto, o problema a ser abordado, a(s) hipótese(s),
-quando couber(em), bem como o(s) objetivo(s) a ser(em) atingido(s) e a(s)
-justificativa(s). É necessário que sejam indicados o referencial teórico que
-o embasa, a metodologia a ser utilizada, assim como os recursos e o cronograma
-necessários à sua consecução.
-\end{citacao}
+  Os teste também foram realizados para o caso de uma população de tamanho fixo em 80 cromossomos e precisão de 10 bits, porém variando-se a quantidade de variáveis na função objetivo. Os resultados obtidos são mostrados no gráfico da figura \ref{fig:qtdvar_tempo}.
 
-Consulte as demais normas da série ``Informação e documentação'' da ABNT
-para outras informações. Uma lista com as principais normas dessa série, todas
-observadas pelo \abnTeX, é apresentada em \citeonline{abntex2classe}.
+  	\begin{figure}[tb]
+	\centering 
+	\includegraphics[width=1.0\columnwidth]{images/N_variaveis} 
+	\caption[Tempo de execução x Quantidade de variáveis]{Tempo de execução x Quantidade de variáveis}
+	\label{fig:qtdvar_tempo} 
+	\end{figure}
+
+  Além dos tempos de execução em relação ao tamanho da população e da quantidade de variáveis, também foi investigada a influência da variação na precisão do algoritmo, tomando-se como base uma população de 70 indivíduos e considerando apenas uma variável. Os resultados obtidos são mostrados no gráfico da figura \ref{fig:tempo_precisao}.
+
+  	\begin{figure}[tb]
+	\centering 
+	\includegraphics[width=1.0\columnwidth]{images/precisao_x_tempo} 
+	\caption[Tempo de execução x Precisão]{Tempo de execução x Precisão}
+	\label{fig:tempo_precisao} 
+	\end{figure}
+
+  A partir destas medições, percebe-se que a precisão dobrou, enquanto o tempo de execução aumentou cerca de duas unidades, o que mostra que a precisão deseja para o AG é uma limitação mais do microcontrolador do que do algoritmo em si. Para microcontroladores mais robustos é possível optar por uma maior precisão sem que isso aumente o tempo de execução do AG.
+
+  Medições foram realizadas a fim de avaliar quanto tempo é gasto na execução de cada etapa do AG. Pelo fato do AG ser  dividido em várias etapas, decidiu-se avaliar o tempo de execução dos principais procedimentos do algoritmo. São eles: Seleção da nova população, cálculo de aptidão e avaliação da população. A seleção da nova população possui como principais métodos, o crossover e a mutação, etapas bastante característica de uma AG, por isso seus tempos individuais de execução foram avaliados.
+
+  Para um AG de 100 indivíduos, com precisão de 10 bits e uma variável, obteve-se os seguintes tempos.
+
+ Tempo total daexecução do AG:  105.66 ms
+ seleção da nova população: 67.64 ms
+	crossover: 45.64 ms
+	mutação 67.64 ms
+ Cálculo da aptidão: 23.18 ms
+ Avaliação da população: 12.09 ms
+
+ Estes são os principais procedimentos do AG desenvolvido neste projeto. O tempo de outros procedimentos auxiliares do algoritmo não foi medido. Por esta razão a soma dos tempos individuais não dá exatamente o tempo total da execução do algoritmo. Esta tempos “faltantes” se devem a estes trechos de códigos auxiliares.
+
+
+
 
 % ----------------------------------------------------------
 % Capitulo com exemplos de comandos inseridos de arquivo externo 
@@ -616,24 +702,49 @@ observadas pelo \abnTeX, é apresentada em \citeonline{abntex2classe}.
 % e adiciona espaço de parte no Sumário
 % ---
 \phantompart
-
 % ---
 % Conclusão
 % ---
-\chapter*[Considerações finais]{Considerações finais}
-\addcontentsline{toc}{chapter}{Considerações finais}
 
-\lipsum[31-33]
+\chapter[Conclusão]{Conclusão}
+
+  Este trabalho consistiu na implementação de um AG em linguagem C, com o objetivo de investigar o desempenho destes algoritmos em sistemas embarcados baseados em microcontroladores. Os tempos de execução obtidos a partir dos testes realizados, mostra que é viável o uso de AGs em sistemas embarcados com o objetivo de solucionar problemas complexos, de várias variáveis, como também criar sistemas de baixo consumo e pequeno porte, devido, também, à própria arquitetura dos microcontroladores que estão cada vez mais otimizados. Os testes realizados consideraram diferentes configurações de parâmetros como tamanho da população, precisões variadas e diferentes quantidades de variáveis, podendo  atender diversos tipos de aplicações. Os tempos obtidos são bastante razoáveis, como observado nos dados, observou-se um tempo de 45.89 ms para uma população de 50 indivíduos. Esse tamanho de população é razoável para a solução de um problema de otimização. Com relação à precisão do AG, observou-se que o tamanho do cromossomo não influencia tanto no desempenho do do algoritmo. Para uma variação de 8 bits para 16 bits, observou-se uma variação de apenas cerca de 2 ms. A  grande maioria dos microcontroladores possuem conversores AD/DA de até 10 bits de precisão e que populações de cinquenta indivíduos são bem razoáveis pra a solução de um problema de otimização. Isso mostra que para estas aplicações, o tempo de resposta será bastante aceitável
+
+\chapter[Perspectivas futuras]{Perspectivas futuras}
+
+  fA partir dos resultados obtidos neste projeto, conclui-se que o uso de GAs em sistemas embarcados é viável, apesar dos recursos limitados de memória e processamento, pois apresentam tempos de resposta satisfatórios. As perspectivas futuras são as de que melhores resultados podem ser alcançadas distribuindo-se a execução do algoritmo em vários microcontroladores, por meio de interfaces de comunicação simples como I2C, através de da criação de um protocolo de dados a fim de se obter tempos melhores. Além disso,  é desejável que o algoritmo possa ser testado em outros plataformas, como microcontroladores da família PIC, Raspberry PI, BeagleBone, entre outros. 
+
+%\lipsum[31-33]
 
 % ----------------------------------------------------------
 % ELEMENTOS PÓS-TEXTUAIS
 % ----------------------------------------------------------
-\postextual
+%\postextual
 
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-\bibliography{abntex2-modelo-references}
+
+%Lima \cite{souza} has proposed that...
+
+% http://www.apogeeu.fee.unicamp.br/sites/apogeeu.fee.unicamp.br/files/Aula2.pdf
+
+\addcontentsline{toc}{section}{Referências}
+\begin{thebibliography}{99}
+
+\bibitem{souza} DE SOUZA, ALISSON ; FERNANDES, MARCELO . Parallel Fixed Point Implementation of a Radial Basis Function Network in an FPGA. Sensors (Basel), v18223­18243,2014.
+\bibitem{marcelo} DE SOUZA, ALISSON C. D. ; FERNANDES, MARCELO A. C. . Proposal for parallel fixed point implementation of a radial basis function network in an FPG IX Southern Conference on Programmable Logic (SPL), 2014, Buenos Aires. 2014 IX Southern Conference on Programmable Logic (SPL), 2014. 
+\bibitem{dhanajay} Dhananjay Gadre. Programming and Customizing the AVR Microcontroller. McGraw­Hill. 2002.]
+[4] Joe Pardu. C Programming for Microcontrollers Featuring ATMEL's AVR Butterfly and the free WinAVR Compiler. Smiley Micros. 2005.
+\bibitem{richard}  Richard H. Barnett, Sarah Cox, Larry O'Cull. Embedded C Programming and the Atmel AVR. Thomson Delmar Learning; 2 edition. 2006.
+\bibitem{simon}  Simon Haykin. Neural Networks: A Comprehensive Foundation (3rd Edition). Prentice­Hall, Inc., Upper Saddle River, NJ, USA, 2007.
+\bibitem{rosa} ROSA, João Luís Garcia. Fundamentos da inteligência artificial. Rio de Janeiro: LTC, 2011. 212 p.ISBN: 9788421605935. 
+\bibitem{coppin}  COPPIN, Ben; VALÉRIO, Jorge Duarte Pires. Inteligência artificial. Rio de Janeiro: LTC, 2010. 636 p. ISBN: 9788521617297.
+\bibitem{Lima} LIMA, Charles Borges de. AVR e Arduino : técnicas de projeto / Charles Borges de Lima, Marco Valério Miorim Villaça. 2. ed. – Florianópolis: Ed. dos autores,2012. 632 p.: il; 21,0 cm. ISBN: 978-85-911400-1-5
+\end{thebibliography}
+
+
+
 
 % ----------------------------------------------------------
 % Glossário
@@ -652,18 +763,14 @@ observadas pelo \abnTeX, é apresentada em \citeonline{abntex2classe}.
 % ---
 \begin{apendicesenv}
 
-% Imprime uma página indicando o início dos apêndices
-\partapendices
-
 % ----------------------------------------------------------
-\chapter{Quisque libero justo}
+\chapter{}
 % ----------------------------------------------------------
 
 \lipsum[50]
 
 % ----------------------------------------------------------
-\chapter{Nullam elementum urna vel imperdiet sodales elit ipsum pharetra ligula
-ac pretium ante justo a nulla curabitur tristique arcu eu metus}
+\chapter{}
 % ----------------------------------------------------------
 \lipsum[55-57]
 
@@ -680,23 +787,13 @@ ac pretium ante justo a nulla curabitur tristique arcu eu metus}
 % ---
 \begin{anexosenv}
 
-% Imprime uma página indicando o início dos anexos
-\partanexos
 
 % ---
-\chapter{Morbi ultrices rutrum lorem.}
-% ---
-\lipsum[30]
+\chapter{}
 
-% ---
-\chapter{Cras non urna sed feugiat cum sociis natoque penatibus et magnis dis
-parturient montes nascetur ridiculus mus}
-% ---
+\chapter{}
 
-\lipsum[31]
-
-% ---
-\chapter{Fusce facilisis lacinia dui}
+\chapter{}
 % ---
 
 \lipsum[32]
@@ -714,3 +811,4 @@ parturient montes nascetur ridiculus mus}
 
 \end{document}
 
+\grid

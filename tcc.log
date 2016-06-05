@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.5.19)  30 MAY 2016 23:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2016.5.19)  5 JUN 2016 10:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -560,11 +560,11 @@ Headheight and headsep: 14.5pt and 19.8738pt
 Footskip: 30pt
 Columnsep and columnseprule: 10pt and 0pt
 Marginparsep and marginparwidth: 7pt and 42.9055pt
-Sidecapsep and sidecapwidth: 7pt and 92pt
-Sidebarhsep and sidebarwidth: 7pt and 92pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
 Sidebarvsep and sidebartopsep: 14.5pt and 0pt
 Sidebarheight: 590.14995pt
-Sidefoothsep and sidefootwidth: 7pt and 92pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
@@ -900,28 +900,8 @@ File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
 \c@lips@count=\count172
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/backref.sty
-Package: backref 2012/07/25 v1.38 Bibliographical back referencing
-)
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2cite.sty
-Package: abntex2cite 2014/01/26 v1.9.2 abnTeX2
-
-(/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
-\minimumbiblabelwidth=\skip203
-\ABCIauxlen=\skip204
-\c@ABCIaux=\count173
-\c@ABCImax=\count174
-
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
-Package: relsize 2013/03/29 ver 4.1
-)
-\biblabelsep=\skip205
-LaTeX Info: Redefining \newblock on input line 675.
-LaTeX Info: Redefining \cite on input line 702.
-\ABCItoken=\toks28
-)
-Package color Info: Redefining color blue on input line 133.
-Package hyperref Info: Option `colorlinks' set `true' on input line 150.
+Package color Info: Redefining color blue on input line 137.
+Package hyperref Info: Option `colorlinks' set `true' on input line 154.
 \tcc@idxfile=\write4
 \openout4 = `tcc.idx'.
 
@@ -930,27 +910,27 @@ Writing index file tcc.idx
 (./tcc.aux (./abntex2-modelo-include-comandos.aux))
 \openout1 = `tcc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 173.
-LaTeX Font Info:    ... okay on input line 173.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 173.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 177.
+LaTeX Font Info:    ... okay on input line 177.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 177.
 
 (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \AtBeginShipoutBox=\box30
-Package hyperref Info: Link coloring ON on input line 173.
+Package hyperref Info: Link coloring ON on input line 177.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -958,32 +938,32 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count175
+\c@section@level=\count173
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 173.
-LaTeX Info: Redefining \ref on input line 173.
-LaTeX Info: Redefining \pageref on input line 173.
-LaTeX Info: Redefining \nameref on input line 173.
-LaTeX Info: Redefining \degres on input line 173.
-LaTeX Info: Redefining \dots on input line 173.
-LaTeX Info: Redefining \up on input line 173.
+LaTeX Info: Redefining \nameref on input line 177.
+LaTeX Info: Redefining \ref on input line 177.
+LaTeX Info: Redefining \pageref on input line 177.
+LaTeX Info: Redefining \nameref on input line 177.
+LaTeX Info: Redefining \degres on input line 177.
+LaTeX Info: Redefining \dots on input line 177.
+LaTeX Info: Redefining \up on input line 177.
 \myptabbox=\box31
-\myptabboxwidth=\skip206
+\myptabboxwidth=\skip203
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count176
+\scratchcounter=\count174
 \scratchdimen=\dimen160
 \scratchbox=\box32
-\nofMPsegments=\count177
-\nofMParguments=\count178
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count179
+\nofMPsegments=\count175
+\nofMParguments=\count176
+\everyMPshowfont=\toks28
+\MPscratchCnt=\count177
 \MPscratchDim=\dimen161
-\MPnumerator=\count180
-\makeMPintoPDFobject=\count181
-\everyMPtoPDFconversion=\toks30
+\MPnumerator=\count178
+\makeMPintoPDFobject=\count179
+\everyMPtoPDFconversion=\toks29
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -999,7 +979,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 173.
+LaTeX Info: Redefining \microtypecontext on input line 177.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1014,7 +994,7 @@ Package microtype Info: No adjustment of character kerning.
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
 (RS)
 )
-LaTeX Font Info:    Try loading font information for T1+lmss on input line 186.
+LaTeX Font Info:    Try loading font information for T1+lmss on input line 190.
 
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
@@ -1026,176 +1006,217 @@ Package microtype Info: Loading generic settings for font family
 (microtype)             See the microtype manual for details.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
-
-]
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 194.
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 198.
 
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 194.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 198.
 
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 194
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 198
 .
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 194
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 198
 .
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 194.
+(Font)              <12> on input line 198.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 194.
+(Font)              <8> on input line 198.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 194.
+(Font)              <6> on input line 198.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.194 
+l.198 
        [1
 
 
-]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has
- been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.194 
-       [2
 
-] (./tcc.lof) [3] [4
+] (./tcc.lof) [2
 
-] (./tcc.lot) [5] [6
+] (./tcc.lot) [3
 
-] [7
-
-] [8
-
-] [9
-
-] [10
-
-] (./tcc.toc
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [11]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <14.4> on input line 51.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 51.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 51.
-
-Overfull \hbox (6.4481pt too wide) in paragraph at lines 59--59
- [][] [][][]\T1/lmss/bx/n/12 NULLAM ELE-MEN-TUM URNA VEL IM-PER-DIET 
- []
+] [4
 
 
-Overfull \hbox (1.3121pt too wide) in paragraph at lines 59--59
- \T1/lmss/bx/n/12 SO-DA-LES ELIT IP-SUM PHA-RE-TRA LI-GULA AC 
- []
-
-) [12] [13
+] [5
 
 
-] [14
+] (./tcc.toc [6
 
-] [15] [16
+]) [7] [8
+
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[9
 
- [17]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 293.
+]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 299.
 
-
-(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [18]
-[19] [20] [21] [22] [23
-
-] [24
+ [10] [11] [12] [13] [14] [15
 
 ]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+<images/esquematico_microcontrolador.png, id=187, 910.40125pt x 449.68pt>
+File: images/esquematico_microcontrolador.png Graphic file (type png)
 
- [25]
-[26] [27] [28]
-Underfull \vbox (badness 1681) has occurred while \output is active []
+<use images/esquematico_microcontrolador.png>
+Package pdftex.def Info: images/esquematico_microcontrolador.png used on input 
+line 409.
+(pdftex.def)             Requested size: 455.0pt x 224.74338pt.
 
- [29]
-[30]
-Underfull \hbox (badness 10000) in paragraph at lines 553--558
+<images/microcontrolador_atmega.jpg, id=189, 636.12656pt x 327.47343pt>
+File: images/microcontrolador_atmega.jpg Graphic file (type jpg)
+
+<use images/microcontrolador_atmega.jpg>
+Package pdftex.def Info: images/microcontrolador_atmega.jpg used on input line 
+418.
+(pdftex.def)             Requested size: 227.5pt x 117.11084pt.
+ [16 <./images/esquematico_microcontrolador.png> <./images/microcontrolador_atm
+ega.jpg>]
+<images/arquitetura_von_neuman.png, id=196, 629.35126pt x 319.1925pt>
+File: images/arquitetura_von_neuman.png Graphic file (type png)
+
+<use images/arquitetura_von_neuman.png>
+Package pdftex.def Info: images/arquitetura_von_neuman.png used on input line 4
+34.
+(pdftex.def)             Requested size: 227.5pt x 115.38164pt.
+
+<images/arquitetura_harvard.png, id=197, 596.2275pt x 328.22626pt>
+File: images/arquitetura_harvard.png Graphic file (type png)
+
+<use images/arquitetura_harvard.png>
+Package pdftex.def Info: images/arquitetura_harvard.png used on input line 441.
+
+(pdftex.def)             Requested size: 227.5pt x 125.23811pt.
+ [17 <./images/arquitetura_von_neuman.png> <./images/arquitetura_harvard.png>] 
+[18
+
+] [19] [20] [21] [22] [23]
+Underfull \hbox (badness 10000) in paragraph at lines 610--615
 
  []
 
-[31] [32]
+[24] <images/1_var_prec_10_sizepop_x_t.png, id=243, 398.23781pt x 321.45094pt>
+File: images/1_var_prec_10_sizepop_x_t.png Graphic file (type png)
 
-LaTeX Warning: Citation `abntex2classe' on page 33 undefined on input line 605.
+<use images/1_var_prec_10_sizepop_x_t.png>
+Package pdftex.def Info: images/1_var_prec_10_sizepop_x_t.png used on input lin
+e 652.
+(pdftex.def)             Requested size: 455.0pt x 367.2819pt.
 
+<images/N_variaveis.png, id=245, 688.07062pt x 225.09094pt>
+File: images/N_variaveis.png Graphic file (type png)
 
-[33
+<use images/N_variaveis.png>
+Package pdftex.def Info: images/N_variaveis.png used on input line 661.
+(pdftex.def)             Requested size: 455.0pt x 148.84554pt.
 
-]
+<images/precisao_x_tempo.png, id=247, 639.89063pt x 220.57407pt>
+File: images/precisao_x_tempo.png Graphic file (type png)
+
+<use images/precisao_x_tempo.png>
+Package pdftex.def Info: images/precisao_x_tempo.png used on input line 670.
+(pdftex.def)             Requested size: 455.0pt x 156.84427pt.
+ [25] [26 <./images/1_var_prec_10_sizepop_x_t.png (PNG copy)> <./images/N_varia
+veis.png (PNG copy)>] [27 <./images/precisao_x_tempo.png (PNG copy)>]
 \openout2 = `abntex2-modelo-include-comandos.aux'.
 
 
 No file abntex2-modelo-include-comandos.tex.
-[34
+[28
 
 
 
-]
-No file tcc.bbl.
-[35] [36
+] [29
 
 ]
+bibitemlist
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 657.
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
 
-[37
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.735 ...ork in an FPGA. Sensors (Basel), v18223­
+                                                  18243,2014.
+? 
 
-] [38] [39
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
-] [40
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.736 ...ence on Programmable Logic (SPL), 2014. 
+                                                  
+? 
 
-] [41] [42
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
 
-]
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.737 ...omizing the AVR Microcontroller. McGraw­
+                                                  Hill. 2002.]
+? 
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\uppercase' on input line 685.
+! Package inputenc Error: Unicode char \u8:­ not set up for use with LaTeX.
 
-[43
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.740 ...sive Foundation (3rd Edition). Prentice­
+                                                  Hall, Inc., Upper Saddle R...
 
-] [44] [45
+? 
 
-] [46
+! Package inputenc Error: Unicode char \u8:  not set up for use with LaTeX.
 
-] [47] [48
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.741 ...: LTC, 2011. 212 p.ISBN: 9788421605935. 
+                                                  
+? 
+[30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
 
 ]
 No file tcc.ind.
-[49]
+[35
+
+]
 \tf@lof=\write5
 \openout5 = `tcc.lof'.
 
@@ -1205,29 +1226,29 @@ No file tcc.ind.
 \tf@toc=\write7
 \openout7 = `tcc.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 715.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 715.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 812.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 812.
  (./tcc.aux (./abntex2-modelo-include-comandos.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 715.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 715.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 812.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 812.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 715.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 812.
  ) 
 Here is how much of TeX's memory you used:
- 13939 strings out of 493105
- 206333 string characters out of 6137072
- 465056 words of memory out of 5000000
- 16987 multiletter control sequences out of 15000+600000
- 70745 words of font info for 105 fonts, out of 8000000 for 9000
+ 13461 strings out of 493105
+ 199743 string characters out of 6137072
+ 457430 words of memory out of 5000000
+ 16522 multiletter control sequences out of 15000+600000
+ 59785 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,13n,36p,1113b,534s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,36p,1526b,528s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/en
-c/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/l
-m/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
+c/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/u
+sr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/l
+m/lm-ec.enc}</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texm
 f/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi
 12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/font
 s/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb><
@@ -1237,10 +1258,10 @@ are/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/
 lmtt12.pfb>
-Output written on tcc.pdf (51 pages, 304948 bytes).
+Output written on tcc.pdf (36 pages, 489822 bytes).
 PDF statistics:
- 550 PDF objects out of 1000 (max. 8388607)
- 478 compressed objects within 5 object streams
- 108 named destinations out of 1000 (max. 500000)
- 24417 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 511 PDF objects out of 1000 (max. 8388607)
+ 447 compressed objects within 5 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 19836 words of extra memory for PDF output out of 20736 (max. 10000000)
 
